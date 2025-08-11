@@ -1,0 +1,54 @@
+# Root ignores
+.DS_Store
+.env
+.env.*
+!.env.example
+*.local
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Build outputs
+/dist
+/build
+.next
+out
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+
+# Coverage
+coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Images cache / uploads (if any local tmp)
+/tmp
+/uploads
+
+# Misc
+.cache
+
+# Frontend specific
+frontend/.next
+frontend/out
+
+# Backend specific
+backend/dist
+
+# Prevent committing real env secrets; provide template
+backend/.env
+frontend/.env.local
