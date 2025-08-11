@@ -1,7 +1,7 @@
 'use client';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import L from 'leaflet';
+import { Icon } from 'leaflet';
 import Image from 'next/image';
 
 interface Pond {
@@ -14,8 +14,8 @@ interface Pond {
   createdAt: string;
 }
 
-// Simple custom marker icon (fallback to default path fix if bundler changes)
-const icon = new L.Icon({
+// Simple custom marker icon
+const icon = new Icon({
   iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
   iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
   shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
