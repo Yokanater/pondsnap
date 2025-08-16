@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'>
+  <defs>
+    <linearGradient id='g' x1='0' x2='0' y1='0' y2='1'>
+      <stop offset='0%' stop-color='#dff2e6'/>
+      <stop offset='100%' stop-color='#cfe7f5'/>
+    </linearGradient>
+  </defs>
+  <rect width='800' height='600' fill='url(#g)'/>
+  <circle cx='400' cy='320' r='180' fill='#8ecae6' opacity='0.5'/>
+  <ellipse cx='400' cy='340' rx='260' ry='90' fill='#88d4c2' opacity='0.35'/>
+  <text x='400' y='80' text-anchor='middle' font-family='"Cormorant Garamond", serif' font-size='42' fill='#2f6f55'>Pond</text>
+</svg>

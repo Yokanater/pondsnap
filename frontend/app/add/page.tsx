@@ -115,6 +115,10 @@ export default function AddPondPage() {
           <label className="block text-sm font-medium mb-1">Photo *</label>
           <input ref={fileInputRef} type="file" accept="image/*" capture="environment" onChange={e => handleChange('imageFile', e.target.files?.[0] || null)} className="block w-full text-sm" required />
         </div>
+        <div className="flex items-center gap-3 text-xs text-slate-500 dark:text-slate-400">
+          <span className="inline-block w-2 h-2 rounded-full bg-pond-green/70 dark:bg-pond-teal/70" />
+          <span>Geolocation auto-fills. Ensure location permission is enabled.</span>
+        </div>
         {error && <div className="text-sm text-red-600 dark:text-red-400">{error}</div>}
         {success && <div className="text-sm text-green-700 dark:text-green-400">Saved.</div>}
         <button disabled={submitting} className="px-4 py-2 rounded-md bg-pond-green hover:bg-pond-teal text-white text-sm font-medium disabled:opacity-60">

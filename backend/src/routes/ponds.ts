@@ -50,4 +50,14 @@ router.post('/', upload.single('image'), async (req, res) => {
   }
 });
 
+router.get('/:id', async (req, res) => {
+  try {
+    const pond = await Pond.findById(req.params.id).lean();
+    if (!pond) return res.status(404).json({ message: 'Not found' });
+    res.json(pond);
+  } catch (e) {
+    res.status(400).json({ message: 'Invalid id' });
+  }
+});
+
 export default router;

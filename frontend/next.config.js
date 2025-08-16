@@ -6,6 +6,9 @@ const nextConfig = {
       { protocol: 'https', hostname: 's3.amazonaws.com' },
       { protocol: 'https', hostname: '*/**' }
     ]
+  },
+  env: {
+    NEXT_PUBLIC_MAPBOX_TOKEN: process.env.NEXT_PUBLIC_MAPBOX_TOKEN
   }
 };
 module.exports = nextConfig;

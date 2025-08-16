@@ -1,0 +1,6 @@
+/* Minimal Mapbox style tweaks to fit PondSnap aesthetics */
+.mapboxgl-map { font-family: Inter, system-ui, -apple-system, sans-serif; }
+.mapboxgl-popup { max-width: 260px !important; }
+.mapboxgl-popup-content { padding: 10px 10px 12px; border-radius: 10px; backdrop-filter: blur(6px); background: rgba(255,255,255,0.9); border: 1px solid rgba(47,111,85,0.2); }
+.dark .mapboxgl-popup-content { background: rgba(15,23,42,0.8); border-color: rgba(29,127,120,0.3); color: #e2e8f0; }
+.mapboxgl-ctrl-logo { display: none !important; }
