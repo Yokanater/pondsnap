@@ -80,10 +80,10 @@
   {
     "_id": "in-pond-chennai-1",
     "name": "Dayanand School Pond",
-    "note": "Brackish hints, umclear water, plastic degradation.",
+    "note": "Heavy eutrophication, unclear water, plastic degradation.",
     "lat": 28.610085,
     "lng": 77.552078,
-    "imageUrl": "/pond-placeholder.svg",
+    "imageUrl": "/IMG-20250818-WA0006.jpg",
     "createdAt": "2025-07-28T07:10:00.000Z",
     "sensors": {
       "tds": [ {"t":"2025-07-04","v": 380}, {"t":"2025-07-11","v": 390}, {"t":"2025-07-18","v": 395}, {"t":"2025-07-25","v": 385}, {"t":"2025-08-01","v": 392}, {"t":"2025-08-08","v": 388} ],
