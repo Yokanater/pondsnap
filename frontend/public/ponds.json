@@ -1,44 +1,5 @@
 [
   {
-    "_id": "local-pond-1",
-    "name": "Willow Mirror",
-    "note": "Shallow, lots of reeds. Samples weekly.",
-    "lat": 51.5074,
-    "lng": -0.1278,
-    "imageUrl": "/pond-placeholder.svg",
-    "createdAt": "2025-08-01T10:00:00.000Z",
-    "sensors": {
-      "tds": [
-        { "t": "2025-07-01", "v": 210 },
-        { "t": "2025-07-08", "v": 220 },
-        { "t": "2025-07-15", "v": 205 },
-        { "t": "2025-07-22", "v": 215 },
-        { "t": "2025-07-29", "v": 212 },
-        { "t": "2025-08-05", "v": 218 }
-      ],
-      "temperature": [
-        { "t": "2025-07-01", "v": 17.2 },
-        { "t": "2025-07-08", "v": 18.5 },
-        { "t": "2025-07-15", "v": 19.0 },
-        { "t": "2025-07-22", "v": 20.1 },
-        { "t": "2025-07-29", "v": 19.6 },
-        { "t": "2025-08-05", "v": 18.9 }
-      ],
-      "ph": [
-        { "t": "2025-07-01", "v": 7.1 },
-        { "t": "2025-07-15", "v": 7.2 },
-        { "t": "2025-07-29", "v": 7.0 },
-        { "t": "2025-08-05", "v": 7.1 }
-      ],
-      "metals": [
-        { "t": "2025-07-01", "v": 0.12 },
-        { "t": "2025-07-15", "v": 0.16 },
-        { "t": "2025-07-29", "v": 0.11 },
-        { "t": "2025-08-05", "v": 0.14 }
-      ]
-    }
-  },
-  {
     "_id": "local-pond-2",
     "name": "Dragonfly Haven",
     "note": "Clear water, dragonflies everywhere.",
@@ -118,10 +79,10 @@
   },
   {
     "_id": "in-pond-chennai-1",
-    "name": "Adyar Backwater",
-    "note": "Brackish hints.",
-    "lat": 13.0039,
-    "lng": 80.2550,
+    "name": "Dayanand School Pond",
+    "note": "Brackish hints, umclear water, plastic degradation.",
+    "lat": 28.610085,
+    "lng": 77.552078,
     "imageUrl": "/pond-placeholder.svg",
     "createdAt": "2025-07-28T07:10:00.000Z",
     "sensors": {
